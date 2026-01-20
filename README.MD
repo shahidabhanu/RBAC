@@ -172,7 +172,7 @@ JWT authentication flow
 
 Username: hr||marketing||finance||employee||ceo||admin||cto||-- (any one!!)
 
-password: <Username>123
+password: Username123
 
 ------------------
 Ask Question according to the role:
@@ -198,6 +198,23 @@ Ask Question according to the role:
 --No raw database fields exposed
 
 --Strict context-only answer generation
+
+### 🔑 Login Credentials
+
+Username examples:
+- hr
+- finance
+- marketing
+- employee
+- admin
+
+Password format:
+`<username>123`
+
+Example:
+- Username: hr  
+- Password: `hr123`
+
 
 📁 Folder Structure:
 
